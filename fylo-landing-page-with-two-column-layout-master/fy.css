@@ -1,0 +1,442 @@
+body{
+    margin: 0px;
+}
+#main{
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 500px;
+}
+.logo img{
+    height: 40px;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+}
+nav ul{
+    list-style-type: none;
+    position: absolute;
+    left: 950px;
+    top: 20px;
+}
+.nav li a{
+     font-family: Raleway;
+     color: hsl(243, 87%, 12%);
+     text-decoration: none;
+    }
+.nav li{
+    display: inline;
+    margin: 20px;
+}
+.ilus{
+    position: absolute;
+    left: 720px;
+    top: 150px;
+}
+.ilus img{
+    height: 400px;
+}
+.par{
+    position: relative;
+    top: 220px;
+}
+.par p{
+    font-family: open sans;
+    color: hsl(243, 87%, 12%);
+}
+.par h1{
+    font-family: Raleway;
+    color: hsl(243, 87%, 12%);
+}
+input.mail{
+    height: 38px;
+    width: 260px;
+    padding-left: 20px;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 2px;
+    font-family: Raleway;
+}
+.button{
+    height: 42px;
+    width: 180px;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 4px;
+    font-family: Raleway;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    margin-left: 8px;
+    font-weight: 700;
+}
+/**************Section2*******/
+#container{
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    background-image: url(images/bgdesktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.illus{
+    height: 400px;
+    position: absolute;
+    left: 720px;
+    top: 150px;
+}
+.talk p{
+    font-family: Raleway;
+    color: hsl(243, 87%, 12%);
+    font-weight: 600;
+}
+.talk h1{
+     font-family: Raleway;
+     font-weight: 700;
+     color: hsl(243, 87%, 12%);
+}
+.arrow{
+    color: hsl(170, 45%, 43%);
+    font-family: Raleway;
+    font-weight: 500;
+}
+.box{
+    width: 24%;
+    background: white;
+    position: relative;
+    border-radius: 8px;
+    top: 30px;
+}
+.avatar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 65px;
+}
+.box p{
+    font-family: Raleway;
+    color: hsl(243, 87%, 12%);
+    font-size: small;
+    font-weight: 600;
+    line-height: 1.5;
+}
+span.kyle{
+    position: absolute;
+    bottom: 40px;
+    left: 65px;
+    font-family: open sans;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+}
+span.ky{
+    position: absolute;
+    bottom: 25px;
+    left: 65px;
+    font-family: open sans;
+    font-size: 10px;
+    color: hsl(243, 87%, 12%);
+}
+.all{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*********SECTION3*********/
+.third{
+    position: relative;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: hsl(238, 22%, 44%);
+}
+.fo{
+   position: absolute;
+   left: 750px;
+   bottom: 110px;
+}
+
+.em{
+    width: 420px;
+    height: 45px;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 4px;
+    font-family: Raleway;
+    padding-left: 20px;
+}
+.sub{
+    width: 200px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    box-shadow: 1px 1px 8px hsl(224, 93%, 58%);
+    font-family: Raleway;
+}
+.third h2{
+    font-family: Raleway;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.third p{
+    font-family: Raleway;
+    color: hsl(0, 0%, 75%);
+    font-weight: 600;
+    line-height: 1.5;
+}
+/******LAST SECTION*****/
+.last{
+    background-color: hsl(243, 87%, 12%);
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display:flex;
+}
+.ab a{
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+    font-family: Raleway;
+    list-style-type: none;
+    padding-left: 150px;
+    line-height: 2.5;
+    font-weight: 700;
+    font-size: 14px;
+    }
+    .con a{
+        color: hsl(0, 0%, 75%);
+        text-decoration: none;
+        font-family: open sans;
+        line-height: 2.5;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .fa-brands{
+        color: hsl(0, 0%, 75%);
+        border: 1px solid hsl(0, 0%, 75%);
+        border-radius: 65px;
+        margin: 2px;
+        padding: 8px;
+    }
+    .icons{
+        margin-left: 180px;
+        margin-top: 30px;
+    }
+    /********RESPONSIVENESS****/
+    @media screen and (max-width:375px){
+        body{
+            margin: 0px;
+            width: 375px;
+        }
+        #main{
+            position: relative;
+            padding-left: 0px;
+            padding-right:0px;
+            padding-bottom: 550px;
+        }
+            .nav li a{
+            font-weight: 600;
+        }
+        .logo img{
+            height: 20px;}
+        .logo{
+            position: relative;
+            top: 40px;
+            left: 20px;
+        }
+        nav ul{
+            position: relative;
+            left: 150px;
+            top: 0px;
+        }
+        .nav li{
+            display: inline;
+            margin: 5px;
+            font-size: 12px;
+        }
+        .ilus{
+            position: relative;
+            left: 20px;
+            top: 150px;
+        }
+        .ilus img{
+            height: 250px;
+        }
+        .par{
+            position: relative;
+            top: 450px;
+            left: 0px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .par p{
+            text-align: center;
+        }
+        .par h1{
+            text-align: center;
+        }
+        .one{
+            position: relative;
+            left: 40px;
+        }
+        input.mail{
+            height: 38px;
+            width: 320px;
+            height: 38px;
+            width: 260px;
+            padding-left: 20px;
+            border: 1px solid hsl(243, 87%, 12%);
+            border-radius: 2px;
+            font-family: Raleway;
+        }
+        .button{
+            height: 42px;
+            width: 285px;
+            margin-top: 10px;
+            margin-left: 0px;
+        }
+        /**************Section2*******/
+        #container{
+            position: relative;
+            padding-left: 0px;
+            padding-bottom: 700px;
+            padding-top: 100px;
+            background-image: url(images/bgmobile.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+        }
+        .illus{
+            height: 250px;
+            position: absolute;
+            left: 20px;
+            top: 150px;
+        }
+        .talk{
+            position: absolute;
+            top: 450px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .box{
+            width: 80%;
+            background: white;
+            position: relative;
+            border-radius: 8px;
+            top: 620px;
+            left: 40px;
+        }
+        .talk p{
+            font-weight: 400;
+            text-align: center;
+        }
+        .talk h1{
+             color: hsl(243, 87%, 12%);
+             text-align: center;
+             font-size: 18px;
+        }
+        #arrow{
+            position: relative;
+            top: 580px;
+            left: 110px;
+        }
+        /*********SECTION3*********/
+.third{
+    position: relative;
+    padding-left: 0px;
+    padding-top: 70px;
+    padding-bottom: 200px;
+    background-color: hsl(238, 22%, 44%);
+}
+.fo{
+   position: absolute;
+   left: 40px;
+   top: 280px;
+}
+
+.em{
+    width: 280px;
+    height: 45px;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 4px;
+    font-family: Raleway;
+    padding-left: 20px;
+}
+.sub{
+    width: 305px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    box-shadow: 1px 1px 8px hsl(224, 93%, 58%);
+    font-family: Raleway;
+}
+.third h2{
+    font-size: 24px;
+    text-align: center;
+}
+.third p{
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+.third{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/******LAST SECTION*****/
+.last{
+    padding-left: 0px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    position: relative;
+    display:block;
+}
+.ab a{
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+    font-family: Raleway;
+    list-style-type: none;
+    padding-left: 0px;
+    line-height: 2.5;
+    font-weight: 700;
+    font-size: 14px;
+    }
+    .con a{
+        color: hsl(0, 0%, 75%);
+        text-decoration: none;
+        font-family: open sans;
+        line-height: 2.5;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    li{
+        list-style-type: none;
+    }
+    .fa-brands{
+        color: hsl(0, 0%, 75%);
+        border: 1px solid hsl(0, 0%, 75%);
+        border-radius: 65px;
+        margin: 2px;
+        padding: 8px;
+    }
+    .icons{
+        position: absolute;
+        left: 150px;
+        bottom: 60px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .con{
+        position: relative;
+        left: 40px;
+    }
+    }

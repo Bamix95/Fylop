@@ -1,0 +1,467 @@
+body{
+    margin: 0px;
+}
+#main{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav header{
+ display: flex;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline;
+    position: relative;
+    top:13px;
+    left: 850px;
+    margin: 20px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.logo{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.ilus img{
+    height: 450px;
+}
+
+.ilus{
+    float: right;
+    margin-top: 100px;
+}
+
+.par{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.par h1{
+    font-family: Raleway;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    font-size: 38px;
+}
+.par p{
+    font-family: open sans;
+    color: hsl(243, 87%, 12%);
+}
+input.mail{
+    height: 35px;
+    width: 250px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: Raleway;
+}
+.button{
+    height: 42px;
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-family: Raleway;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    margin-left: 10px;
+    font-weight: 700;
+}
+/***********SECTION2*********/
+#container{
+  margin-top: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-image: url(images/bgdesktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+ .illus{
+    height: 400px;
+    float: right;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.talk p{
+    font-family: Raleway;
+    color: hsl(243, 87%, 12%);
+    font-weight: 400;
+}
+.talk h1{
+     font-family: Raleway;
+     font-weight: 700;
+     color: hsl(243, 87%, 12%);
+}
+.talk{
+    padding-top: 50px
+}
+.arrow{
+    color: hsl(170, 45%, 43%);
+    font-family: Raleway;
+    font-weight: 500;
+}
+.box{
+    width: 25%;
+    background: white;
+    margin-top: 40px;
+    position: relative;
+    border-radius: 8px;
+}
+.avatar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 65px;
+}
+.box p{
+    font-family: Raleway;
+    color: hsl(243, 87%, 12%);
+    font-size: small;
+    font-weight: 500;
+}
+.all{
+    padding: 20px;
+}
+.quote{
+    margin-bottom: -10px;
+}
+span.kyle{
+    position: absolute;
+    bottom: 39px;
+    left: 62px;
+    font-family: open sans;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+}
+span.ky{
+    position: absolute;
+    bottom: 24px;
+    left: 62px;
+    font-family: open sans;
+    font-size: 10px;
+    color: hsl(243, 87%, 12%);
+}
+/*****SECTION 3*****/
+.third{
+    padding: 80px 50px;
+    background-color: hsl(238, 22%, 44%);
+}
+.fo{
+    float: right;
+    margin-top: -125px;
+    padding-right: 40px;
+}
+
+.em{
+    width: 400px;
+    height: 45px;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 4px;
+    padding-left: 20px;
+    font-family: Raleway;
+}
+.sub{
+    width: 200px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    font-weight: 700;
+    box-shadow: 1px 1px 8px hsl(224, 93%, 58%);
+    font-family: Raleway;
+}
+.third h2{
+    font-family: Raleway;
+    color: white;
+}
+.third p{
+    font-family: Raleway;
+    color: white;
+    font-size: 14px;
+}
+/**************Last Section***********/
+.last{
+     background-color: hsl(243, 87%, 12%);
+     padding: 100px 50px;
+     display:flex;
+    }
+.ab a{
+    color: white;
+    text-decoration: none;
+    font-family: open sans;
+    list-style-type: none;
+    padding-left: 150px;
+    line-height: 2.5;
+    }
+
+    .ab{
+        margin-top: 32px;
+    }
+.con a{
+    color: white;
+    text-decoration: none;
+    font-family: open sans;
+    line-height: 2.5;
+}
+
+li{
+    list-style-type: none;
+}
+
+.fa-brands{
+    color: white;
+    border: 1px solid white;
+    border-radius: 65px;
+    margin-left: 20px;
+    padding: 8px;
+}
+.icons{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+/*******Responsiveness*******/
+@media screen and (max-width:375px){
+    #main{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav li{
+        display: inline;
+        position: relative;
+        top:13px;
+        left: 100px;
+        font-size: 12px;
+        margin: 5px;
+    }
+    .logo img{
+        width: 50px;
+}
+.logo{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+    .ilus img{
+        height: 250px;
+        float: none;
+        clear: none;
+    }
+    .ilus{
+        padding-bottom: 40px;
+    }
+    .par h1{
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .par p{
+        text-align: center;
+        font-size: 14px;
+    }
+    #main form{
+        margin-top:30px;
+    }
+    input.mail{
+        height: 40px;
+        width: 300px;
+        border: 1px solid hsl(243, 87%, 12%);
+        border-radius: 2px;
+        font-family: Raleway;
+        margin-left: 0px;
+    }
+    .button{
+        height: 45px;
+        width: 325px;
+        border: 1px solid hsl(243, 87%, 12%);
+        border-radius: 4px;
+        font-family: Raleway;
+        color: white;
+        margin-top: 10px;
+        margin-left: 0px;
+        background-color: hsl(224, 93%, 58%);
+    }
+    /********SECTION 2********/
+    .talk h1{
+        text-align: center;
+        font-size: 20px; 
+    }
+    #container{
+        margin-top: 100px;
+        padding: 40px 15px;
+        background-image: url(images/bgmobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+}
+.illus{
+    height: 250px;
+    float: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.talk p{
+    font-family: open sans;
+    color: hsl(243, 87%, 12%);
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    line-break: initial;
+}
+.arrow{
+    margin-left: 100px;
+}
+.box{
+    width: 90%;
+    background: white;
+    margin-top: 40px;
+    position: relative;
+    left: 20px;
+    border-radius: 8px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+span.kyle{
+    position: absolute;
+    bottom: 54px;
+    left: 62px;
+}
+span.ky{
+    position: absolute;
+    bottom: 40px;
+    left: 62px;
+}
+/*******SECTION3**********/
+.third{
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.fo{
+    float: none;
+    margin-top: 25px;
+}
+.em{
+    width: 300px;
+    height: 45px;
+    border: 1px solid hsl(243, 87%, 12%);
+    border-radius: 4px;
+    padding-left: 20px;
+}
+.sub{
+    width: 322px;
+    height: 45px;
+    margin-top: 10px;
+}
+.third h2{
+    text-align: center;
+}
+.third p{
+    text-align: center;
+}
+/**************last section*********/
+.last{
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: block;
+    position: relative;
+    padding-bottom: 150px;
+}
+.ab a{
+   padding-left: 0px;
+   line-height: 2.5;
+   margin-left: -35px;
+   }
+.con a{
+   color: white;
+   text-decoration: none;
+   font-family: open sans;
+   line-height: 2.5;
+}
+
+li{
+   list-style-type: none;
+}
+
+.fa-brands{
+   margin: 5px;
+}
+.icons{
+    position: absolute;
+    bottom: 80px;
+    right: 120px;
+    margin-left: 0px;
+}
+}
+/*********PC Response******************/
+/*
+@media screen and (max-width:1440px){
+    body{
+        max-width: 1440;
+        margin: 0px;
+    }
+    #main{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .ilus img{
+        height: 300px;
+    }
+    .ilus{
+        position: relative;
+        right: 200px;
+    }
+    .nav li{
+        left: 750px;
+        margin: 20px;
+    }
+    #container{
+        margin-top: 100px;
+       padding: 100px 30px;
+      }
+      .illus{
+        height: 300px;
+        float: right;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        position: relative;
+        right: 200px;
+    }
+    .third{
+        padding: 80px 30px;
+    }
+    .fo{
+        float: none;
+        margin-top: -125px;
+        position: relative;
+        left: 700px;
+    }
+    .last{
+        background-color: hsl(243, 87%, 12%);
+        padding: 100px 30px;
+        display:flex;
+       }
+       .icons{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+
+    
+}
